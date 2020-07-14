@@ -8,7 +8,7 @@ playlist_url = "https://www.youtube.com/watch_videos?video_ids="
 
 # handle input arguments
 import argparse
-parser = argparse.ArgumentParser(description='Make a youtube playlist containing a video for each line of the input file')
+parser = argparse.ArgumentParser(description='Make a youtube playlist containing a video for each line of the input file.')
 ## path 
 parser.add_argument('-p', '--path', default="./songs.txt", help="path to file containing the songs")
 ## open browser 
